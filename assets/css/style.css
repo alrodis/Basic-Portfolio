@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 960px;
+	background: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	color: #777777;
+}
+
+
+nav ul {
+	margin:0px;
+	list-style-type: none;
+	padding:5px 0px 5px 0px;
+	float: right;
+
+}
+
+nav ul li{
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+header{
+	padding: 25px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	width: 960px;
+	height: 75px;
+
+}
+
+
+#name{
+	float: left;
+	background: #4aaaa5;
+	color: white;
+}
+
+
+#main{
+	float: left;
+	width: 650px;
+	background: #ffffff;
+
+}
+
+#aside{
+	float: right;
+	width: 270px;
+}
+
+
+footer{
+	clear:both;
+	overflow: auto;
+	background: #666666;
+	text-align: center;
+	height:75px;
+	color: white;
+	font-size: 12px;
+	padding: 20px;
+
+}
