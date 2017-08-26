@@ -1,13 +1,14 @@
-*{
+* { 
 	box-sizing: border-box;
 }
 
-body{
-	width: 960px;
+body {
+	/* width: 960px; */
 	background: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 18px;
 	color: #777777;
+	background-image: url("old_moon.png");
 }
 
 
@@ -19,40 +20,61 @@ nav ul {
 
 }
 
-nav ul li{
+nav ul li {
 	display: inline;
 	padding: 5px 10px 5px 10px;
 }
 
-header{
+header {
 	padding: 25px;
 	margin-bottom: 10px;
 	background: #ffffff;
 	width: 960px;
-	height: 75px;
+	height: 50px;
+	
 
 }
 
+h1 {
+	/*font-size: 300%;*/
+}
 
-#name{
+#name {
 	float: left;
 	background: #4aaaa5;
 	color: white;
+	height: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 
-#main{
+#main {
 	float: left;
-	width: 650px;
+	width: 860px;
 	background: #ffffff;
+	margin-right: 20px;
 
 }
 
-#aside{
+#aside {
 	float: right;
 	width: 270px;
+	height: 200px;
+	background: #ffffff;
+	margin-left: 20px;
 }
 
+#about img {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;	
+}
+
+#about {
+	width: 380px;
+	float: left;
+}
 
 footer{
 	clear:both;
